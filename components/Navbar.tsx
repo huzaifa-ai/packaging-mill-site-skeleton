@@ -20,12 +20,7 @@ export default function Navbar() {
             >
               Home
             </Link>
-            <Link
-              href="/manufacturing"
-              className="text-[#374151] hover:text-[#1E3A8A] font-medium transition-colors"
-            >
-              Manufacturing
-            </Link>
+         
             <Link
               href="/products"
               className="text-[#374151] hover:text-[#1E3A8A] font-medium transition-colors"
@@ -51,6 +46,12 @@ export default function Navbar() {
               className="text-[#374151] hover:text-[#1E3A8A] font-medium transition-colors"
             >
               Industries
+            </Link>
+            <Link
+              href="/manufacturing"
+              className="text-[#374151] hover:text-[#1E3A8A] font-medium transition-colors"
+            >
+              Manufacturing
             </Link>
             <Link
               href="/contact"

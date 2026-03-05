@@ -461,7 +461,7 @@ export default function Manufacturing() {
           {/* Masonry-style grid */}
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gridTemplateRows: 'auto', gap: 20 }}>
             <div className="gallery-item" style={{ height: 320, gridColumn: '1 / 2', gridRow: '1 / 2' }}>
-              <img src="https://images.pexels.com/photos/6169654/pexels-photo-6169654.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Factory floor" />
+              <img src="https://images.pexels.com/photos/6028170/pexels-photo-6028170.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Factory floor" />
             </div>
             <div className="gallery-item" style={{ height: 320, gridColumn: '2 / 3', gridRow: '1 / 2' }}>
               <img src="https://images.pexels.com/photos/1267358/pexels-photo-1267358.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Production line" />
