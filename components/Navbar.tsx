@@ -81,19 +81,47 @@ export default function Navbar() {
               Home
             </Link>
             <Link
+              href="/products"
+              className="block py-2 text-[#374151] hover:text-[#1E3A8A] font-medium"
+              onClick={() => setIsOpen(false)}
+            >
+              Products
+            </Link>
+            <Link
+              href="/sustainability"
+              className="block py-2 text-[#374151] hover:text-[#1E3A8A] font-medium"
+              onClick={() => setIsOpen(false)}
+            >
+              Sustainability
+            </Link>
+            <Link
+              href="/manufacturing"
+              className="block py-2 text-[#374151] hover:text-[#1E3A8A] font-medium"
+              onClick={() => setIsOpen(false)}
+            >
+              Certifications
+            </Link>
+            <Link
+              href="/Industries"
+              className="block py-2 text-[#374151] hover:text-[#1E3A8A] font-medium"
+              onClick={() => setIsOpen(false)}
+            >
+              Industries
+            </Link>
+            <Link
               href="/manufacturing"
               className="block py-2 text-[#374151] hover:text-[#1E3A8A] font-medium"
               onClick={() => setIsOpen(false)}
             >
               Manufacturing
             </Link>
-            <a
-              href="#contact"
+            <Link
+              href="/contact"
               className="block py-2 text-[#374151] hover:text-[#1E3A8A] font-medium"
               onClick={() => setIsOpen(false)}
             >
               Contact
-            </a>
+            </Link>
           </div>
         </div>
       )}
